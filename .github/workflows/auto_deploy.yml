@@ -34,5 +34,4 @@ jobs:
       - name: deploying using surge
         run: surge ./ riz2.surge.sh --token ${{ secrets.surge_token }}
         
-          echo Add other actions to build,
-          echo test, and deploy your project.
+  
