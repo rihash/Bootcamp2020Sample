@@ -32,6 +32,6 @@ jobs:
         run: npm install --global surge
       
       - name: deploying using surge
-        run: surge ./ riz.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ riz.surge.sh --token ${{secrets.KEY}}
         
   
